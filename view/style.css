@@ -1,0 +1,183 @@
+span {
+    color: mediumvioletred;
+    font-size: 30px;
+    width: 100%;
+    
+}
+
+.invalidate {
+    color: mediumpurple;
+
+}
+
+.vide {
+    color: mediumpurple;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+#container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-size: 26px;
+}
+
+#container-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    float: left;
+    width: 160px;
+    height: 40px;
+    background-color: mediumpurple;
+    line-height: 40px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+     
+}
+nav li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+}
+nav li a:hover {
+    background-color: MediumVioletRed;
+    border-radius: 20px;
+}
+nav ul.sub {
+    position: absolute;
+    display: none;
+}
+nav ul.sub li ul.sub {
+    top:0;
+    left: 160px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+    width: 200px;
+    border-radius: 10px;
+    transition: box-shadow .3s;
+    border: 2px solid black;
+    align-self: center;
+}
+
+button:hover {
+    box-shadow: 0 0 50px mediumpurple;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#image {
+    display: flex;
+}
+
+img {
+    display: flex;
+    height: 700px;
+    width: auto;
+    margin-left: 20%;
+}
+
+.texte,
+.texte1 {
+    display: flex;
+}
+
+.texte1 img {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 20px 0 0;
+}
+
+.texte img {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 60px 20px 0 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 30px 20px 0 20px;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.aboutus1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: lightpink;
+    border-radius: 10px;
+    padding: 20px 20px 10px 20px;
+    width: 550px;
+    height: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#icone {
+    width: 60px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
